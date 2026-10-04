@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TVChaosUK · Prism theme</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  :root{--bg:#0e0d13;--surface:#17151f;--surface2:#1e1b29;--border:rgba(255,255,255,.08);
+    --text:#e8e6f0;--muted:#a6a2b8;--accent:#8b5cf6;--accent6:#7c3aed;--accent4:#a78bfa;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;
+    line-height:1.6;background-image:radial-gradient(900px 500px at 85% -5%,rgba(124,58,237,.18),transparent 60%);}
+  .wrap{max-width:760px;margin:0 auto;padding:80px 24px}
+  .badge{display:inline-block;padding:.3em .8em;border-radius:999px;background:rgba(139,92,246,.16);
+    color:var(--accent4);font-size:13px;font-weight:600;border:1px solid var(--border)}
+  h1{font-size:44px;letter-spacing:-.02em;margin:18px 0 8px;font-weight:700}
+  .lead{color:var(--muted);font-size:18px;margin:0 0 36px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+    padding:26px;box-shadow:0 12px 32px rgba(0,0,0,.45);margin-bottom:20px}
+  h2{font-size:15px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:0 0 14px}
+  code{display:block;background:#131119;border:1px solid var(--border);border-radius:8px;
+    padding:14px 16px;color:var(--accent4);font-family:ui-monospace,Menlo,monospace;font-size:14px;
+    word-break:break-all}
+  ul{margin:0;padding-left:20px;color:var(--muted)}li{margin:6px 0}
+  a{color:var(--accent4)}
+  .btn{display:inline-block;margin-top:8px;background:var(--accent6);color:#fff;text-decoration:none;
+    padding:10px 20px;border-radius:8px;font-weight:600;transition:.18s}
+  .btn:hover{background:var(--accent);box-shadow:0 4px 16px rgba(124,58,237,.4)}
+  footer{color:#736f86;font-size:13px;margin-top:40px;text-align:center}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="badge">External CSS theme</span>
+    <h1>Prism</h1>
+    <p class="lead">A clean, modern override theme for TVChaosUK — refined colours,
+      typography, spacing and depth on top of the Dark Purple theme.</p>
+
+    <div class="card">
+      <h2>Stylesheet URL</h2>
+      <code>style.css</code>
+      <a class="btn" href="style.css">View stylesheet</a>
+    </div>
+
+    <div class="card">
+      <h2>How to apply</h2>
+      <ul>
+        <li>On TVChaosUK, open <strong>Settings → General → External CSS Stylesheet</strong>.</li>
+        <li>Paste the full URL to <code style="display:inline;padding:2px 6px">style.css</code> into the CSS URL field.</li>
+        <li>Save. To revert, simply clear the field.</li>
+      </ul>
+    </div>
+
+    <footer>Built as a drop-in override · does not alter site functionality</footer>
+  </div>
+</body>
+</html>

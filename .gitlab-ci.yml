@@ -1,0 +1,13 @@
+# GitLab Pages: publish the static files (style.css, index.html) to
+# https://<namespace>.gitlab.io/<project>/
+pages:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - mkdir -p public
+    - cp style.css index.html public/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
