@@ -6,7 +6,7 @@
   <img alt="Type" src="https://img.shields.io/badge/Type-Stylesheet-3B82F6?style=for-the-badge">
   <img alt="CSS" src="https://img.shields.io/badge/CSS-Override%20Layer-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img alt="Font" src="https://img.shields.io/badge/Font-Inter-000000?style=for-the-badge">
-  <img alt="Delivery" src="https://img.shields.io/badge/Delivery-GitLab%20Pages-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white">
+  <img alt="Delivery" src="https://img.shields.io/badge/Delivery-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white">
 </p>
 
 ---
@@ -22,7 +22,7 @@ to the site's own CSS.
 
 ## Install
 
-1. Host `style.css` at a public URL, or use the published GitLab Pages URL.
+1. Host `style.css` at a public URL, or use the published GitHub Pages URL.
 2. Paste that URL into **Settings → General → External CSS Stylesheet**.
 3. Save and hard-refresh.
 
