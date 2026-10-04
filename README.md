@@ -1,40 +1,45 @@
-<h1 align="center">Prism Theme</h1>
-
-<p align="center"><em>A modern purple-accented override stylesheet that refines an existing dark theme rather than replacing it.</em></p>
-
 <p align="center">
-  <img alt="Type" src="https://img.shields.io/badge/Type-Stylesheet-3B82F6?style=for-the-badge">
-  <img alt="CSS" src="https://img.shields.io/badge/CSS-Override%20Layer-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img alt="Font" src="https://img.shields.io/badge/Font-Inter-000000?style=for-the-badge">
-  <img alt="Delivery" src="https://img.shields.io/badge/Delivery-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="brand/readme-banner.svg" alt="CSS and userscript package banner" width="100%">
 </p>
 
----
+<p align="center">
+  <img alt="Type" src="https://img.shields.io/badge/Type-CSS%20%2B%20Userscript-111827?style=for-the-badge">
+  <img alt="Delivery" src="https://img.shields.io/badge/Delivery-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img alt="Visibility" src="https://img.shields.io/badge/Visibility-Public-22C55E?style=for-the-badge&logo=github&logoColor=white">
+</p>
 
-## Overview
+# CSS & Userscript Package
 
-An external override stylesheet that loads on top of a site's own dark theme. It
-refines colour, typography, spacing, radius and depth only — it does not replace or
-alter site functionality.
+A public stylesheet and userscript package maintained for browser customization.
 
-Because it layers rather than replaces, it stays small and survives upstream changes
-to the site's own CSS.
+## Highlights
+
+- Hosted stylesheet files for browser-based custom styling.
+- Public GitHub Pages delivery for direct installation links.
+- Clean GitHub-only links with no legacy host references.
 
 ## Install
 
-1. Host `style.css` at a public URL, or use the published GitHub Pages URL.
-2. Paste that URL into **Settings → General → External CSS Stylesheet**.
-3. Save and hard-refresh.
+Use the GitHub repository homepage link to open the hosted package page.
 
-## Customising
+Use a userstyle manager for stylesheet files and a userscript manager such as Tampermonkey or Violentmonkey for `.user.js` files.
 
-All colours are declared as design tokens in the `:root` block at the top of
-`style.css` — surfaces, text, borders and accents. Change the tokens and the rest of
-the sheet follows.
+## Published Assets
 
-## Contents
+- Stylesheets are available from the repository and GitHub Pages host.
+- No userscript entry point is currently published.
+- The repo homepage points at the GitHub Pages deployment.
 
-| File | Purpose |
-|---|---|
-| `style.css` | The override stylesheet |
-| `index.html` | Landing page for the published Pages site |
+## Repository Map
+
+- `brand/` - project assets and source files.
+
+## Maintenance
+
+- Keep install and update URLs on GitHub or GitHub Pages.
+- Avoid naming target communities or private destinations in public-facing docs.
+- Check userscript metadata whenever files move.
+
+## License
+
+See [LICENSE](LICENSE) if present in this repository.
